@@ -1,0 +1,191 @@
+format: jb-book
+root: docs/index
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: docs/about
+        sections:
+          - file: docs/proposals
+          - file: docs/data-sharing-plan
+          - file: docs/documentation
+          - file: docs/glossary
+      - file: docs/community
+        sections:
+          - file: docs/discussions
+          - file: docs/CONTRIBUTING
+          - file: docs/quickstart-first-code-contribution.ipynb
+  - caption: Collections
+    chapters:
+      - file: collections/climate/README
+      - file: collections/mobility/README
+        sections:
+          - file: collections/mobility/notebooks/mobility-data/README
+            sections:
+              - file: collections/mobility/notebooks/mobility-data/mobility-data-availability.ipynb
+              - file: collections/mobility/notebooks/mobility-data/mobility-data-quality-assessment.ipynb
+              - file: collections/mobility/notebooks/mobility-data/mobility-data-with-dask.ipynb
+              - file: collections/mobility/notebooks/mobility-data/mobility-data-with-databricks.ipynb
+              - file: collections/mobility/notebooks/mobility-data/mobility-data-with-r.ipynb
+              - file: collections/mobility/notebooks/mobility-data/spatial-join.ipynb
+              - file: collections/mobility/notebooks/mobility-data/spatial-join-with-h3.ipynb
+              - file: collections/mobility/notebooks/mobility-data/projects
+      - file: collections/open/README
+      - file: collections/briefs/README
+        sections:
+          - file: collections/briefs/country/VEN
+          - file: collections/briefs/country/AFR
+  - caption: Documentation
+    chapters:
+      - file: docs/partners
+        sections:
+          - file: partners/atlasai/README
+            sections:
+              - file: partners/atlasai/metadata/atlasai
+          - file: partners/constellr/README
+          - file: partners/earthgenome/README
+          - file: partners/earthmetry/README
+          - file: partners/esa/README
+          - file: partners/esri/README
+            sections:
+              - file: partners/esri/projects
+          - file: partners/github/README
+            sections:
+              - file: partners/github/metadata/innovation-graph
+          - file: partners/google/README
+            sections:
+              - file: partners/google/examples/google-health-trends-api.ipynb
+              - file: partners/google/projects
+          - file: partners/grab/README
+          - file: partners/indigo/README
+            sections:
+              - file: partners/indigo/examples/indigo.ipynb
+          - file: partners/linkedin/README
+            sections:
+              - file: partners/linkedin/metadata/linkedin-geographic-coverage-and-representativeness
+              - file: partners/linkedin/metadata/linkedin-green-and-specialized-skill-categories
+              - file: partners/linkedin/metadata/linkedin-hiring-rate.ipynb
+              - file: partners/linkedin/metadata/linkedin-career-transitions.ipynb
+              - file: partners/linkedin/metadata/linkedin-skills-genome.ipynb
+              - file: partners/linkedin/metadata/linkedin-skills-similarity.ipynb
+              - file: partners/linkedin/metadata/linkedin-skills-penetration.ipynb
+                sections:
+                  - file: partners/linkedin/examples/linkedin-skills-penetration/README
+          - file: partners/mapbox/README
+            sections:
+              - file: partners/mapbox/notebooks/mapbox-isochrone-api.ipynb
+              - file: partners/mapbox/notebooks/mapbox-matrix-api.ipynb
+              - file: partners/mapbox/notebooks/mapbox-movement.ipynb
+              - file: partners/mapbox/notebooks/mapbox-traffic-data.ipynb
+              - file: partners/mapbox/examples/mapbox-network-with-osm-speeds.ipynb
+          - file: partners/mapillary/README
+            sections:
+              - file: partners/mapillary/examples/mapillary-api.ipynb
+          - file: partners/microsoft/README
+            sections:
+              - file: partners/microsoft/catalog/azure-geospatial-services
+          - file: partners/facebook/README
+            sections:
+              - file: partners/facebook/examples/facebook-data-for-good-portal.ipynb
+              - file: partners/facebook/examples/facebook-geoinsights.ipynb
+              - file: partners/facebook/catalog/population
+              - file: partners/facebook/catalog/mobility
+              - file: partners/facebook/catalog/connectivity-infrastructure
+              - file: partners/facebook/catalog/economic-poverty
+              - file: partners/facebook/catalog/social-connections
+              - file: partners/facebook/catalog/facebook-covid-19-preventative-health-survey
+              - file: partners/facebook/examples/facebook-covid19-trends-and-impact-survey.ipynb
+              - file: partners/facebook/catalog/facebook-gender-equality-at-home-survey
+              - file: partners/facebook/glossary
+              - file: partners/facebook/projects
+          - file: partners/homebase/README
+            sections:
+              - file: partners/homebase/metadata/homebase-summary-data.ipynb
+          - file: partners/jba/README
+            sections:
+              - file: partners/jba/metadata/global-flood-maps
+          - file: partners/olacabs/README
+          - file: partners/ookla/README
+            sections:
+              - file: partners/ookla/catalog/ookla-open-data.ipynb
+              - file: partners/ookla/examples/ookla-speedtest-intelligence.ipynb
+              - file: partners/ookla/projects
+          - file: partners/orbitalinsight/README
+            sections:
+              - file: partners/orbitalinsight/examples/orbitalinsight-go.ipynb
+          - file: partners/outlogic/README
+            sections:
+              - file: partners/outlogic/examples/outlogic-observation-panel.ipynb
+              - file: partners/outlogic/projects
+          - file: partners/planet/README
+            sections:
+              - file: partners/planet/metadata/planetscope-archive-and-monitoring
+              - file: partners/planet/metadata/skysat-archive
+          - file: partners/plumelabs/README
+          - file: partners/premise/README
+            sections:
+              - file: partners/premise/data/premise-staple-goods-monitoring
+              - file: partners/premise/data/premise-data-for-covid19
+              - file: partners/premise/data/premise-data-for-humanitarian-actors
+          - file: partners/quadrant/README
+            sections:
+              - file: partners/quadrant/examples/quadrant-mobile-location-data.ipynb
+          - file: partners/quantcube/README
+          - file: partners/safegraph/README
+            sections:
+              - file: partners/safegraph/examples/safegraph_data_catalog
+          - file: partners/spaceknow/README
+            sections:
+              - file: partners/spaceknow/data/spaceknow-nowcasting-solutions
+          - file: partners/spectus/README
+            sections:
+              - file: partners/spectus/metadata/cuebiq-mobile-data.ipynb
+              - file: partners/spectus/metadata/spectus-data-cleanroom.ipynb
+          - file: partners/starlink/README
+          - file: partners/tomorrow/README
+            sections:
+              - file: partners/tomorrow/examples/tomorrow-api.ipynb
+          - file: partners/twitter/README
+            sections:
+              - file: partners/twitter/examples/twitter-enterprise-search-api.ipynb
+              - file: partners/twitter/examples/twitter-decahose-api.ipynb
+          - file: partners/uber/README
+          - file: partners/unacast/README
+            sections:
+              - file: partners/unacast/examples/unacast-data-for-good.ipynb
+          - file: partners/veraset/README
+            sections:
+              - file: partners/veraset/examples/veraset.ipynb
+              - file: partners/veraset/examples/veraset-traveler-data.ipynb
+          - file: partners/vesselbot/README
+          - file: partners/waze/README
+            sections:
+              - file: partners/waze/notebooks/waze-for-cities.ipynb
+              - file: partners/waze/notebooks/waze-areas-of-operation.ipynb
+              - file: partners/waze/notebooks/waze-for-cities-alerts.ipynb
+              - file: partners/waze/notebooks/waze-for-cities-jams.ipynb
+              - file: partners/waze/notebooks/waze-for-cities-examples.ipynb
+              - file: partners/waze/examples/comparison-waze-for-cities-on-google-cloud-and-waze-feeds
+          - file: partners/whereismytransport/README
+            sections:
+              - file: partners/whereismytransport/examples/exploring_gtfs_file_with_partridge.ipynb
+              - file: partners/whereismytransport/examples/build_and_merge_gtfs_graphs.ipynb
+          - file: partners/worlddatalab/README
+            sections:
+              - file: partners/worlddatalab/metadata/world-emissions-clock/README
+              - file: partners/worlddatalab/metadata/world-poverty-clock/README
+              - file: partners/worlddatalab/metadata/internet-poverty-index/README
+              - file: partners/worlddatalab/metadata/world-data-pro-demo/README
+      - file: docs/tutorials
+        sections:
+          - file: docs/getting-started-with-aws
+          - file: docs/getting-started-with-github
+          - file: docs/getting-started-with-jupyter
+          - file: docs/getting-started-with-databricks
+  - caption: Resources
+    chapters:
+      - url: https://wbdatalab.org
+        title: 🌐 World Bank Data Lab
+      - url: https://datapartnership.org/updates
+        title: "💡 Projects & News"
+      - url: https://datapartnership.org/template
+        title: 🚀 Project Template
